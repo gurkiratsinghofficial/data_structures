@@ -19,7 +19,7 @@ int p=pivot(arr,size);
 int index1=binary_search(arr,0,p,num);
 if(index1==-1)
 {
-int index2=binary_search(arr,p+1,size-p);
+int index2=binary_search(arr,p+1,size-p,num);
 printf("found at %d",index2);
 }
 else
